@@ -2,7 +2,7 @@
 
 // Función que suma dos números
 function sumar(a, b) {
-  return a * b; // 🐛 Bug intencional: multiplicamos en vez de sumar
+  return a + b; // ✅ Restaurado correctamente
 }
 
 // Mensaje de bienvenida
