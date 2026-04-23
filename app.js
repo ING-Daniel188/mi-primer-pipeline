@@ -1,14 +1,11 @@
-// app.js — Nuestra aplicación principal
+// app.js — Solo las funciones (para que los tests funcionen)
 
-// Función que suma dos números
 function sumar(a, b) {
-  return a + b; // ✅ Restaurado correctamente
+  return a + b;
 }
 
-// Mensaje de bienvenida
 function saludo() {
   return "Hola Mundo desde mi Pipeline";
 }
 
-// Exportamos las funciones para que el test pueda usarlas
 module.exports = { sumar, saludo };
