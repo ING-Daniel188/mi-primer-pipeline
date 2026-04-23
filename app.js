@@ -5,7 +5,7 @@ function sumar(a, b) {
 }
 
 function saludo() {
-  return "Hola Mundo desde mi Pipeline";
+  return "Hola Devops";
 }
 
 module.exports = { sumar, saludo };
